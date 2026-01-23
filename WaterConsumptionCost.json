@@ -1,0 +1,99 @@
+
+{
+  "id": "urn:ngsi-ld:WaterConsumptionCost:ES0234150053700753JR",
+  "type": "WaterConsumptionCost",
+  "TimeInstant": {
+    "type": "Property",
+    "value": "2024-03-01T00:00:00.000Z"
+  },
+  "address": {
+    "type": "Property",
+    "value": "Plaza Mayor"
+  },
+  "areaServed": {
+    "type": "Property",
+    "value": "redconsumption"
+  },
+  "consumption": {
+    "type": "Property",
+    "value": 100
+  },
+  "consumptionCost": {
+    "type": "Property",
+    "value": 123
+  },
+  "consumptionPoint": {
+    "type": "Property",
+    "value": "urn:ngsi:ConsumptionPoint:0002"
+  },
+  "CUPS": {
+    "type": "Property",
+    "value": "ES0234150053700753JR"
+  },
+  "dataProvider": {
+    "type": "Property",
+    "value": "www.libelium.com"
+  },
+  "dateObservedFrom": {
+    "type": "Property",
+    "value": "2024-03-01T00:00:00.000Z"
+  },
+  "dateObservedTo": {
+    "type": "Property",
+    "value": "2024-03-30T23:59:59.999Z"
+  },
+  "invoiceCost": {
+    "type": "Property",
+    "value": 1234
+  },
+  "invoiceDate": {
+    "type": "Property",
+    "value": "2024-03-30T23:59:59.999Z"
+  },
+  "location": {
+    "type": "Property:json",
+    "value": {
+      "coordinates": [
+        -3.874522,
+        40.492988
+      ],
+      "type": "Point"
+    }
+  },
+  "municipality": {
+    "type": "Property",
+    "value": "lasrozas"
+  },
+  "name": {
+    "type": "Property",
+    "value": "Plaza Mayor"
+  },
+  "operationalStatus": {
+    "type": "Property",
+    "value": "CONNECTED"
+  },
+  "source": {
+    "type": "Property",
+    "value": "www.libelium.com"
+  },
+  "state": {
+    "type": "Property",
+    "value": "OK"
+  },
+  "supplyName": {
+    "type": "Property",
+    "value": "Water Supplier"
+  },
+  "supplierActivationDate": {
+    "type": "Property",
+    "value": "2022-01-17T11:05:05.00Z"
+  },
+  "totalCost": {
+    "type": "Property",
+    "value": 1235
+  },
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "https://smart-data-models.github.io/dataModel.Consumption/context.jsonld"
+  ]
+}
