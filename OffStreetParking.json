@@ -1,0 +1,64 @@
+
+{
+  "id": "urn:ngsi-ld:OffStreetParking:Novality_89",
+  "type": "OffStreetParking",
+  "address": {
+    "type": "Property",
+    "value": {
+      "streetAddress": "TR. Navalcarbón con C/ Camilo J. Cela",
+      "type": "PostalAddress"
+    }
+  },
+  "availableSpotNumber": {
+    "type": "Property",
+    "value": 11,
+    "observedAt": "2026-03-12T11:15:57.078Z"
+  },
+  "category": {
+    "type": "Property",
+    "value": "bicycleParking"
+  },
+  "name": {
+    "type": "Property",
+    "value": "Estación 93",
+    "observedAt": "2026-02-13T07:35:49.160Z"
+  },
+  "occupiedSpotNumber": {
+    "type": "Property",
+    "value": 0,
+    "observedAt": "2026-03-12T11:15:57.078Z"
+  },
+  "outOfServiceSpotNumber": {
+    "type": "Property",
+    "value": 0,
+    "observedAt": "2026-03-12T11:15:57.078Z"
+  },
+  "provider": {
+    "type": "Property",
+    "value": "Novality"
+  },
+  "reservedSpotNumber": {
+    "type": "Property",
+    "value": 0,
+    "observedAt": "2026-03-12T11:15:57.078Z"
+  },
+  "totalSpotNumber": {
+    "type": "Property",
+    "value": 11
+  },
+  "status": {
+    "type": "Property",
+    "value": "open",
+    "observedAt": "2026-03-12T11:15:57.078Z"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        -3.899741,
+        40.516113
+      ]
+    }
+  }
+}
